@@ -73,7 +73,8 @@
                                  bigPicture:(OIMPictureInfo *)big
                             snapshotPicture:(OIMPictureInfo *)snapshot {
     
-    NSString *json = Open_im_sdkCreateImageMessageByURL([OIMManager.manager operationId], sourcePath, source.mj_JSONString, big.mj_JSONString, snapshot.mj_JSONString);
+//    NSString *json = Open_im_sdkCreateImageMessageByURL([OIMManager.manager operationId], sourcePath, source.mj_JSONString, big.mj_JSONString, snapshot.mj_JSONString);
+    NSString *json = Open_im_sdkCreateImageMessageByURL([OIMManager.manager operationId], source.mj_JSONString, big.mj_JSONString, snapshot.mj_JSONString);
     
     return [self convertToMessageInfo:json];
 }

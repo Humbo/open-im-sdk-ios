@@ -13,6 +13,46 @@
 		17CADD2827C7227F0069C80E /* voice_test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 17CADD2627C7227F0069C80E /* voice_test.m4a */; };
 		17CADD2A27C738630069C80E /* video_test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 17CADD2927C738630069C80E /* video_test.mp4 */; };
 		17CADD2C27C7781C0069C80E /* file_test.zip in Resources */ = {isa = PBXBuildFile; fileRef = 17CADD2B27C7781C0069C80E /* file_test.zip */; };
+		4D0EC86B2AECA52D0061ADC4 /* OIMGCDMulticastDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8152AECA52C0061ADC4 /* OIMGCDMulticastDelegate.m */; };
+		4D0EC86C2AECA52D0061ADC4 /* OIMCallbacker+Closure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8182AECA52C0061ADC4 /* OIMCallbacker+Closure.m */; };
+		4D0EC86D2AECA52D0061ADC4 /* OIMCallbacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC81A2AECA52C0061ADC4 /* OIMCallbacker.m */; };
+		4D0EC86E2AECA52D0061ADC4 /* OIMManager+Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8202AECA52C0061ADC4 /* OIMManager+Friend.m */; };
+		4D0EC86F2AECA52D0061ADC4 /* OIMManager+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8222AECA52C0061ADC4 /* OIMManager+User.m */; };
+		4D0EC8702AECA52D0061ADC4 /* OIMManager+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8242AECA52C0061ADC4 /* OIMManager+Message.m */; };
+		4D0EC8712AECA52D0061ADC4 /* OIMManager+Conversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8252AECA52C0061ADC4 /* OIMManager+Conversation.m */; };
+		4D0EC8722AECA52D0061ADC4 /* OIMManager+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8262AECA52C0061ADC4 /* OIMManager+Group.m */; };
+		4D0EC8732AECA52D0061ADC4 /* OIMManager+Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8272AECA52C0061ADC4 /* OIMManager+Connection.m */; };
+		4D0EC8742AECA52D0061ADC4 /* OIMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8282AECA52C0061ADC4 /* OIMManager.m */; };
+		4D0EC8752AECA52D0061ADC4 /* OIMManager+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC82B2AECA52C0061ADC4 /* OIMManager+Login.m */; };
+		4D0EC8762AECA52D0061ADC4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC82E2AECA52C0061ADC4 /* Reachability.m */; };
+		4D0EC8772AECA52D0061ADC4 /* OIMUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8322AECA52C0061ADC4 /* OIMUserInfo.m */; };
+		4D0EC8782AECA52D0061ADC4 /* OIMFaceElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8362AECA52C0061ADC4 /* OIMFaceElem.m */; };
+		4D0EC8792AECA52D0061ADC4 /* OIMCustomElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC83C2AECA52C0061ADC4 /* OIMCustomElem.m */; };
+		4D0EC87A2AECA52D0061ADC4 /* OIMMessageElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC83D2AECA52D0061ADC4 /* OIMMessageElem.m */; };
+		4D0EC87B2AECA52D0061ADC4 /* OIMQuoteElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC83F2AECA52D0061ADC4 /* OIMQuoteElem.m */; };
+		4D0EC87C2AECA52D0061ADC4 /* OIMNotificationElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8402AECA52D0061ADC4 /* OIMNotificationElem.m */; };
+		4D0EC87D2AECA52D0061ADC4 /* OIMMessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8422AECA52D0061ADC4 /* OIMMessageInfo.m */; };
+		4D0EC87E2AECA52D0061ADC4 /* OIMFullUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8432AECA52D0061ADC4 /* OIMFullUserInfo.m */; };
+		4D0EC87F2AECA52D0061ADC4 /* OIMPictureElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8452AECA52D0061ADC4 /* OIMPictureElem.m */; };
+		4D0EC8802AECA52D0061ADC4 /* OIMAttachedInfoElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8462AECA52D0061ADC4 /* OIMAttachedInfoElem.m */; };
+		4D0EC8812AECA52D0061ADC4 /* OIMConversationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC84B2AECA52D0061ADC4 /* OIMConversationInfo.m */; };
+		4D0EC8822AECA52D0061ADC4 /* OIMFriendApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC84C2AECA52D0061ADC4 /* OIMFriendApplication.m */; };
+		4D0EC8832AECA52D0061ADC4 /* OIMSearchParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC84D2AECA52D0061ADC4 /* OIMSearchParam.m */; };
+		4D0EC8842AECA52D0061ADC4 /* OIMLocationElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC84F2AECA52D0061ADC4 /* OIMLocationElem.m */; };
+		4D0EC8852AECA52D0061ADC4 /* OIMSimpleRequstInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8502AECA52D0061ADC4 /* OIMSimpleRequstInfo.m */; };
+		4D0EC8862AECA52D0061ADC4 /* OIMFileElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8512AECA52D0061ADC4 /* OIMFileElem.m */; };
+		4D0EC8872AECA52D0061ADC4 /* OIMAtElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8552AECA52D0061ADC4 /* OIMAtElem.m */; };
+		4D0EC8882AECA52D0061ADC4 /* OIMGroupMemberInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8562AECA52D0061ADC4 /* OIMGroupMemberInfo.m */; };
+		4D0EC8892AECA52D0061ADC4 /* OIMGroupApplicationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC85A2AECA52D0061ADC4 /* OIMGroupApplicationInfo.m */; };
+		4D0EC88A2AECA52D0061ADC4 /* OIMSearchResultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC85B2AECA52D0061ADC4 /* OIMSearchResultInfo.m */; };
+		4D0EC88B2AECA52D0061ADC4 /* OIMGroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC85C2AECA52D0061ADC4 /* OIMGroupInfo.m */; };
+		4D0EC88C2AECA52D0061ADC4 /* OIMSimpleResultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC85D2AECA52D0061ADC4 /* OIMSimpleResultInfo.m */; };
+		4D0EC88D2AECA52D0061ADC4 /* OIMVideoElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC85E2AECA52D0061ADC4 /* OIMVideoElem.m */; };
+		4D0EC88E2AECA52D0061ADC4 /* OIMSoundElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC85F2AECA52D0061ADC4 /* OIMSoundElem.m */; };
+		4D0EC88F2AECA52D0061ADC4 /* OIMMergeElem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8612AECA52D0061ADC4 /* OIMMergeElem.m */; };
+		4D0EC8902AECA52D0061ADC4 /* UploadFileCallbackProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8652AECA52D0061ADC4 /* UploadFileCallbackProxy.m */; };
+		4D0EC8912AECA52D0061ADC4 /* SendMessageCallbackProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8662AECA52D0061ADC4 /* SendMessageCallbackProxy.m */; };
+		4D0EC8922AECA52D0061ADC4 /* CallbackProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC8672AECA52D0061ADC4 /* CallbackProxy.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -49,6 +89,88 @@
 		17CADD2927C738630069C80E /* video_test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_test.mp4; sourceTree = "<group>"; };
 		17CADD2B27C7781C0069C80E /* file_test.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = file_test.zip; sourceTree = "<group>"; };
 		453F34D8D2D31FBC4FE60C5A /* Pods-OpenIMSDKiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenIMSDKiOS_Example.release.xcconfig"; path = "Target Support Files/Pods-OpenIMSDKiOS_Example/Pods-OpenIMSDKiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4D0EC8152AECA52C0061ADC4 /* OIMGCDMulticastDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMGCDMulticastDelegate.m; sourceTree = "<group>"; };
+		4D0EC8162AECA52C0061ADC4 /* OIMCallbacker+Closure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIMCallbacker+Closure.h"; sourceTree = "<group>"; };
+		4D0EC8172AECA52C0061ADC4 /* OIMCallbacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMCallbacker.h; sourceTree = "<group>"; };
+		4D0EC8182AECA52C0061ADC4 /* OIMCallbacker+Closure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIMCallbacker+Closure.m"; sourceTree = "<group>"; };
+		4D0EC8192AECA52C0061ADC4 /* OIMGCDMulticastDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMGCDMulticastDelegate.h; sourceTree = "<group>"; };
+		4D0EC81A2AECA52C0061ADC4 /* OIMCallbacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMCallbacker.m; sourceTree = "<group>"; };
+		4D0EC81C2AECA52C0061ADC4 /* OIMManager+Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIMManager+Connection.h"; sourceTree = "<group>"; };
+		4D0EC81D2AECA52C0061ADC4 /* OIMManager+Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIMManager+Group.h"; sourceTree = "<group>"; };
+		4D0EC81E2AECA52C0061ADC4 /* OIMManager+Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIMManager+Message.h"; sourceTree = "<group>"; };
+		4D0EC81F2AECA52C0061ADC4 /* OIMManager+Conversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIMManager+Conversation.h"; sourceTree = "<group>"; };
+		4D0EC8202AECA52C0061ADC4 /* OIMManager+Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIMManager+Friend.m"; sourceTree = "<group>"; };
+		4D0EC8212AECA52C0061ADC4 /* OIMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMManager.h; sourceTree = "<group>"; };
+		4D0EC8222AECA52C0061ADC4 /* OIMManager+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIMManager+User.m"; sourceTree = "<group>"; };
+		4D0EC8232AECA52C0061ADC4 /* OIMManager+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIMManager+Login.h"; sourceTree = "<group>"; };
+		4D0EC8242AECA52C0061ADC4 /* OIMManager+Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIMManager+Message.m"; sourceTree = "<group>"; };
+		4D0EC8252AECA52C0061ADC4 /* OIMManager+Conversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIMManager+Conversation.m"; sourceTree = "<group>"; };
+		4D0EC8262AECA52C0061ADC4 /* OIMManager+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIMManager+Group.m"; sourceTree = "<group>"; };
+		4D0EC8272AECA52C0061ADC4 /* OIMManager+Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIMManager+Connection.m"; sourceTree = "<group>"; };
+		4D0EC8282AECA52C0061ADC4 /* OIMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMManager.m; sourceTree = "<group>"; };
+		4D0EC8292AECA52C0061ADC4 /* OIMManager+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIMManager+Friend.h"; sourceTree = "<group>"; };
+		4D0EC82A2AECA52C0061ADC4 /* OIMManager+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OIMManager+User.h"; sourceTree = "<group>"; };
+		4D0EC82B2AECA52C0061ADC4 /* OIMManager+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OIMManager+Login.m"; sourceTree = "<group>"; };
+		4D0EC82C2AECA52C0061ADC4 /* OpenIMSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenIMSDK.h; sourceTree = "<group>"; };
+		4D0EC82E2AECA52C0061ADC4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4D0EC82F2AECA52C0061ADC4 /* OIMDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMDefine.h; sourceTree = "<group>"; };
+		4D0EC8302AECA52C0061ADC4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4D0EC8322AECA52C0061ADC4 /* OIMUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMUserInfo.m; sourceTree = "<group>"; };
+		4D0EC8332AECA52C0061ADC4 /* OIMFileElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMFileElem.h; sourceTree = "<group>"; };
+		4D0EC8342AECA52C0061ADC4 /* OIMSimpleRequstInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMSimpleRequstInfo.h; sourceTree = "<group>"; };
+		4D0EC8352AECA52C0061ADC4 /* OIMLocationElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMLocationElem.h; sourceTree = "<group>"; };
+		4D0EC8362AECA52C0061ADC4 /* OIMFaceElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMFaceElem.m; sourceTree = "<group>"; };
+		4D0EC8372AECA52C0061ADC4 /* OIMSearchParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMSearchParam.h; sourceTree = "<group>"; };
+		4D0EC8382AECA52C0061ADC4 /* OIMFriendApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMFriendApplication.h; sourceTree = "<group>"; };
+		4D0EC8392AECA52C0061ADC4 /* OIMConversationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMConversationInfo.h; sourceTree = "<group>"; };
+		4D0EC83A2AECA52C0061ADC4 /* OIMGroupMemberInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMGroupMemberInfo.h; sourceTree = "<group>"; };
+		4D0EC83B2AECA52C0061ADC4 /* OIMAtElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMAtElem.h; sourceTree = "<group>"; };
+		4D0EC83C2AECA52C0061ADC4 /* OIMCustomElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMCustomElem.m; sourceTree = "<group>"; };
+		4D0EC83D2AECA52D0061ADC4 /* OIMMessageElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMMessageElem.m; sourceTree = "<group>"; };
+		4D0EC83E2AECA52D0061ADC4 /* OIMSearchResultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMSearchResultInfo.h; sourceTree = "<group>"; };
+		4D0EC83F2AECA52D0061ADC4 /* OIMQuoteElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMQuoteElem.m; sourceTree = "<group>"; };
+		4D0EC8402AECA52D0061ADC4 /* OIMNotificationElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMNotificationElem.m; sourceTree = "<group>"; };
+		4D0EC8412AECA52D0061ADC4 /* OIMGroupApplicationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMGroupApplicationInfo.h; sourceTree = "<group>"; };
+		4D0EC8422AECA52D0061ADC4 /* OIMMessageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMMessageInfo.m; sourceTree = "<group>"; };
+		4D0EC8432AECA52D0061ADC4 /* OIMFullUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMFullUserInfo.m; sourceTree = "<group>"; };
+		4D0EC8442AECA52D0061ADC4 /* OIMMergeElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMMergeElem.h; sourceTree = "<group>"; };
+		4D0EC8452AECA52D0061ADC4 /* OIMPictureElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMPictureElem.m; sourceTree = "<group>"; };
+		4D0EC8462AECA52D0061ADC4 /* OIMAttachedInfoElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMAttachedInfoElem.m; sourceTree = "<group>"; };
+		4D0EC8472AECA52D0061ADC4 /* OIMVideoElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMVideoElem.h; sourceTree = "<group>"; };
+		4D0EC8482AECA52D0061ADC4 /* OIMSoundElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMSoundElem.h; sourceTree = "<group>"; };
+		4D0EC8492AECA52D0061ADC4 /* OIMGroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMGroupInfo.h; sourceTree = "<group>"; };
+		4D0EC84A2AECA52D0061ADC4 /* OIMSimpleResultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMSimpleResultInfo.h; sourceTree = "<group>"; };
+		4D0EC84B2AECA52D0061ADC4 /* OIMConversationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMConversationInfo.m; sourceTree = "<group>"; };
+		4D0EC84C2AECA52D0061ADC4 /* OIMFriendApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMFriendApplication.m; sourceTree = "<group>"; };
+		4D0EC84D2AECA52D0061ADC4 /* OIMSearchParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMSearchParam.m; sourceTree = "<group>"; };
+		4D0EC84E2AECA52D0061ADC4 /* OIMFaceElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMFaceElem.h; sourceTree = "<group>"; };
+		4D0EC84F2AECA52D0061ADC4 /* OIMLocationElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMLocationElem.m; sourceTree = "<group>"; };
+		4D0EC8502AECA52D0061ADC4 /* OIMSimpleRequstInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMSimpleRequstInfo.m; sourceTree = "<group>"; };
+		4D0EC8512AECA52D0061ADC4 /* OIMFileElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMFileElem.m; sourceTree = "<group>"; };
+		4D0EC8522AECA52D0061ADC4 /* OIMUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMUserInfo.h; sourceTree = "<group>"; };
+		4D0EC8532AECA52D0061ADC4 /* OIMMessageElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMMessageElem.h; sourceTree = "<group>"; };
+		4D0EC8542AECA52D0061ADC4 /* OIMCustomElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMCustomElem.h; sourceTree = "<group>"; };
+		4D0EC8552AECA52D0061ADC4 /* OIMAtElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMAtElem.m; sourceTree = "<group>"; };
+		4D0EC8562AECA52D0061ADC4 /* OIMGroupMemberInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMGroupMemberInfo.m; sourceTree = "<group>"; };
+		4D0EC8572AECA52D0061ADC4 /* OIMMessageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMMessageInfo.h; sourceTree = "<group>"; };
+		4D0EC8582AECA52D0061ADC4 /* OIMQuoteElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMQuoteElem.h; sourceTree = "<group>"; };
+		4D0EC8592AECA52D0061ADC4 /* OIMNotificationElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMNotificationElem.h; sourceTree = "<group>"; };
+		4D0EC85A2AECA52D0061ADC4 /* OIMGroupApplicationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMGroupApplicationInfo.m; sourceTree = "<group>"; };
+		4D0EC85B2AECA52D0061ADC4 /* OIMSearchResultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMSearchResultInfo.m; sourceTree = "<group>"; };
+		4D0EC85C2AECA52D0061ADC4 /* OIMGroupInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMGroupInfo.m; sourceTree = "<group>"; };
+		4D0EC85D2AECA52D0061ADC4 /* OIMSimpleResultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMSimpleResultInfo.m; sourceTree = "<group>"; };
+		4D0EC85E2AECA52D0061ADC4 /* OIMVideoElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMVideoElem.m; sourceTree = "<group>"; };
+		4D0EC85F2AECA52D0061ADC4 /* OIMSoundElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMSoundElem.m; sourceTree = "<group>"; };
+		4D0EC8602AECA52D0061ADC4 /* OIMAttachedInfoElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMAttachedInfoElem.h; sourceTree = "<group>"; };
+		4D0EC8612AECA52D0061ADC4 /* OIMMergeElem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIMMergeElem.m; sourceTree = "<group>"; };
+		4D0EC8622AECA52D0061ADC4 /* OIMPictureElem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMPictureElem.h; sourceTree = "<group>"; };
+		4D0EC8632AECA52D0061ADC4 /* OIMFullUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIMFullUserInfo.h; sourceTree = "<group>"; };
+		4D0EC8652AECA52D0061ADC4 /* UploadFileCallbackProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadFileCallbackProxy.m; sourceTree = "<group>"; };
+		4D0EC8662AECA52D0061ADC4 /* SendMessageCallbackProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageCallbackProxy.m; sourceTree = "<group>"; };
+		4D0EC8672AECA52D0061ADC4 /* CallbackProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallbackProxy.m; sourceTree = "<group>"; };
+		4D0EC8682AECA52D0061ADC4 /* SendMessageCallbackProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageCallbackProxy.h; sourceTree = "<group>"; };
+		4D0EC8692AECA52D0061ADC4 /* UploadFileCallbackProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadFileCallbackProxy.h; sourceTree = "<group>"; };
+		4D0EC86A2AECA52D0061ADC4 /* CallbackProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallbackProxy.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OpenIMSDKiOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenIMSDKiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,6 +225,136 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0EC8132AECA52C0061ADC4 /* OpenIMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4D0EC8142AECA52C0061ADC4 /* Callbacker */,
+				4D0EC81B2AECA52C0061ADC4 /* Interface */,
+				4D0EC82C2AECA52C0061ADC4 /* OpenIMSDK.h */,
+				4D0EC82D2AECA52C0061ADC4 /* Utils */,
+				4D0EC8312AECA52C0061ADC4 /* Model */,
+				4D0EC8642AECA52D0061ADC4 /* CallbackProxy */,
+			);
+			name = OpenIMSDK;
+			path = ../OpenIMSDK;
+			sourceTree = "<group>";
+		};
+		4D0EC8142AECA52C0061ADC4 /* Callbacker */ = {
+			isa = PBXGroup;
+			children = (
+				4D0EC8152AECA52C0061ADC4 /* OIMGCDMulticastDelegate.m */,
+				4D0EC8162AECA52C0061ADC4 /* OIMCallbacker+Closure.h */,
+				4D0EC8172AECA52C0061ADC4 /* OIMCallbacker.h */,
+				4D0EC8182AECA52C0061ADC4 /* OIMCallbacker+Closure.m */,
+				4D0EC8192AECA52C0061ADC4 /* OIMGCDMulticastDelegate.h */,
+				4D0EC81A2AECA52C0061ADC4 /* OIMCallbacker.m */,
+			);
+			path = Callbacker;
+			sourceTree = "<group>";
+		};
+		4D0EC81B2AECA52C0061ADC4 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4D0EC8212AECA52C0061ADC4 /* OIMManager.h */,
+				4D0EC8282AECA52C0061ADC4 /* OIMManager.m */,
+				4D0EC81C2AECA52C0061ADC4 /* OIMManager+Connection.h */,
+				4D0EC8272AECA52C0061ADC4 /* OIMManager+Connection.m */,
+				4D0EC81F2AECA52C0061ADC4 /* OIMManager+Conversation.h */,
+				4D0EC8252AECA52C0061ADC4 /* OIMManager+Conversation.m */,
+				4D0EC8292AECA52C0061ADC4 /* OIMManager+Friend.h */,
+				4D0EC8202AECA52C0061ADC4 /* OIMManager+Friend.m */,
+				4D0EC81D2AECA52C0061ADC4 /* OIMManager+Group.h */,
+				4D0EC8262AECA52C0061ADC4 /* OIMManager+Group.m */,
+				4D0EC8232AECA52C0061ADC4 /* OIMManager+Login.h */,
+				4D0EC82B2AECA52C0061ADC4 /* OIMManager+Login.m */,
+				4D0EC81E2AECA52C0061ADC4 /* OIMManager+Message.h */,
+				4D0EC8242AECA52C0061ADC4 /* OIMManager+Message.m */,
+				4D0EC82A2AECA52C0061ADC4 /* OIMManager+User.h */,
+				4D0EC8222AECA52C0061ADC4 /* OIMManager+User.m */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		4D0EC82D2AECA52C0061ADC4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4D0EC82E2AECA52C0061ADC4 /* Reachability.m */,
+				4D0EC82F2AECA52C0061ADC4 /* OIMDefine.h */,
+				4D0EC8302AECA52C0061ADC4 /* Reachability.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4D0EC8312AECA52C0061ADC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D0EC8322AECA52C0061ADC4 /* OIMUserInfo.m */,
+				4D0EC8332AECA52C0061ADC4 /* OIMFileElem.h */,
+				4D0EC8342AECA52C0061ADC4 /* OIMSimpleRequstInfo.h */,
+				4D0EC8352AECA52C0061ADC4 /* OIMLocationElem.h */,
+				4D0EC8362AECA52C0061ADC4 /* OIMFaceElem.m */,
+				4D0EC8372AECA52C0061ADC4 /* OIMSearchParam.h */,
+				4D0EC8382AECA52C0061ADC4 /* OIMFriendApplication.h */,
+				4D0EC8392AECA52C0061ADC4 /* OIMConversationInfo.h */,
+				4D0EC83A2AECA52C0061ADC4 /* OIMGroupMemberInfo.h */,
+				4D0EC83B2AECA52C0061ADC4 /* OIMAtElem.h */,
+				4D0EC83C2AECA52C0061ADC4 /* OIMCustomElem.m */,
+				4D0EC83D2AECA52D0061ADC4 /* OIMMessageElem.m */,
+				4D0EC83E2AECA52D0061ADC4 /* OIMSearchResultInfo.h */,
+				4D0EC83F2AECA52D0061ADC4 /* OIMQuoteElem.m */,
+				4D0EC8402AECA52D0061ADC4 /* OIMNotificationElem.m */,
+				4D0EC8412AECA52D0061ADC4 /* OIMGroupApplicationInfo.h */,
+				4D0EC8422AECA52D0061ADC4 /* OIMMessageInfo.m */,
+				4D0EC8432AECA52D0061ADC4 /* OIMFullUserInfo.m */,
+				4D0EC8442AECA52D0061ADC4 /* OIMMergeElem.h */,
+				4D0EC8452AECA52D0061ADC4 /* OIMPictureElem.m */,
+				4D0EC8462AECA52D0061ADC4 /* OIMAttachedInfoElem.m */,
+				4D0EC8472AECA52D0061ADC4 /* OIMVideoElem.h */,
+				4D0EC8482AECA52D0061ADC4 /* OIMSoundElem.h */,
+				4D0EC8492AECA52D0061ADC4 /* OIMGroupInfo.h */,
+				4D0EC84A2AECA52D0061ADC4 /* OIMSimpleResultInfo.h */,
+				4D0EC84B2AECA52D0061ADC4 /* OIMConversationInfo.m */,
+				4D0EC84C2AECA52D0061ADC4 /* OIMFriendApplication.m */,
+				4D0EC84D2AECA52D0061ADC4 /* OIMSearchParam.m */,
+				4D0EC84E2AECA52D0061ADC4 /* OIMFaceElem.h */,
+				4D0EC84F2AECA52D0061ADC4 /* OIMLocationElem.m */,
+				4D0EC8502AECA52D0061ADC4 /* OIMSimpleRequstInfo.m */,
+				4D0EC8512AECA52D0061ADC4 /* OIMFileElem.m */,
+				4D0EC8522AECA52D0061ADC4 /* OIMUserInfo.h */,
+				4D0EC8532AECA52D0061ADC4 /* OIMMessageElem.h */,
+				4D0EC8542AECA52D0061ADC4 /* OIMCustomElem.h */,
+				4D0EC8552AECA52D0061ADC4 /* OIMAtElem.m */,
+				4D0EC8562AECA52D0061ADC4 /* OIMGroupMemberInfo.m */,
+				4D0EC8572AECA52D0061ADC4 /* OIMMessageInfo.h */,
+				4D0EC8582AECA52D0061ADC4 /* OIMQuoteElem.h */,
+				4D0EC8592AECA52D0061ADC4 /* OIMNotificationElem.h */,
+				4D0EC85A2AECA52D0061ADC4 /* OIMGroupApplicationInfo.m */,
+				4D0EC85B2AECA52D0061ADC4 /* OIMSearchResultInfo.m */,
+				4D0EC85C2AECA52D0061ADC4 /* OIMGroupInfo.m */,
+				4D0EC85D2AECA52D0061ADC4 /* OIMSimpleResultInfo.m */,
+				4D0EC85E2AECA52D0061ADC4 /* OIMVideoElem.m */,
+				4D0EC85F2AECA52D0061ADC4 /* OIMSoundElem.m */,
+				4D0EC8602AECA52D0061ADC4 /* OIMAttachedInfoElem.h */,
+				4D0EC8612AECA52D0061ADC4 /* OIMMergeElem.m */,
+				4D0EC8622AECA52D0061ADC4 /* OIMPictureElem.h */,
+				4D0EC8632AECA52D0061ADC4 /* OIMFullUserInfo.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D0EC8642AECA52D0061ADC4 /* CallbackProxy */ = {
+			isa = PBXGroup;
+			children = (
+				4D0EC8652AECA52D0061ADC4 /* UploadFileCallbackProxy.m */,
+				4D0EC8662AECA52D0061ADC4 /* SendMessageCallbackProxy.m */,
+				4D0EC8672AECA52D0061ADC4 /* CallbackProxy.m */,
+				4D0EC8682AECA52D0061ADC4 /* SendMessageCallbackProxy.h */,
+				4D0EC8692AECA52D0061ADC4 /* UploadFileCallbackProxy.h */,
+				4D0EC86A2AECA52D0061ADC4 /* CallbackProxy.h */,
+			);
+			path = CallbackProxy;
+			sourceTree = "<group>";
+		};
 		544C9C856FBE08EA043EC01E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +369,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				4D0EC8132AECA52C0061ADC4 /* OpenIMSDK */,
 				6003F593195388D20070C39A /* Example for OpenIMSDKiOS */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -251,7 +504,7 @@
 				ORGANIZATIONNAME = xpg;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = BDLHL8GNFV;
+						DevelopmentTeam = UVA297LR9R;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -375,10 +628,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0EC86F2AECA52D0061ADC4 /* OIMManager+User.m in Sources */,
+				4D0EC88D2AECA52D0061ADC4 /* OIMVideoElem.m in Sources */,
+				4D0EC86D2AECA52D0061ADC4 /* OIMCallbacker.m in Sources */,
+				4D0EC86E2AECA52D0061ADC4 /* OIMManager+Friend.m in Sources */,
+				4D0EC87B2AECA52D0061ADC4 /* OIMQuoteElem.m in Sources */,
+				4D0EC8922AECA52D0061ADC4 /* CallbackProxy.m in Sources */,
+				4D0EC88B2AECA52D0061ADC4 /* OIMGroupInfo.m in Sources */,
 				17918D0727BC8F380040C924 /* OPENIMSDKTableViewCell.m in Sources */,
+				4D0EC8842AECA52D0061ADC4 /* OIMLocationElem.m in Sources */,
+				4D0EC8892AECA52D0061ADC4 /* OIMGroupApplicationInfo.m in Sources */,
+				4D0EC8812AECA52D0061ADC4 /* OIMConversationInfo.m in Sources */,
 				6003F59E195388D20070C39A /* OPENIMSDKAppDelegate.m in Sources */,
+				4D0EC8742AECA52D0061ADC4 /* OIMManager.m in Sources */,
+				4D0EC8872AECA52D0061ADC4 /* OIMAtElem.m in Sources */,
+				4D0EC87C2AECA52D0061ADC4 /* OIMNotificationElem.m in Sources */,
+				4D0EC8852AECA52D0061ADC4 /* OIMSimpleRequstInfo.m in Sources */,
+				4D0EC8702AECA52D0061ADC4 /* OIMManager+Message.m in Sources */,
+				4D0EC8822AECA52D0061ADC4 /* OIMFriendApplication.m in Sources */,
+				4D0EC87F2AECA52D0061ADC4 /* OIMPictureElem.m in Sources */,
+				4D0EC88E2AECA52D0061ADC4 /* OIMSoundElem.m in Sources */,
+				4D0EC86B2AECA52D0061ADC4 /* OIMGCDMulticastDelegate.m in Sources */,
+				4D0EC87A2AECA52D0061ADC4 /* OIMMessageElem.m in Sources */,
+				4D0EC8862AECA52D0061ADC4 /* OIMFileElem.m in Sources */,
 				6003F5A7195388D20070C39A /* OPENIMSDKViewController.m in Sources */,
+				4D0EC87D2AECA52D0061ADC4 /* OIMMessageInfo.m in Sources */,
+				4D0EC8792AECA52D0061ADC4 /* OIMCustomElem.m in Sources */,
+				4D0EC88A2AECA52D0061ADC4 /* OIMSearchResultInfo.m in Sources */,
+				4D0EC8902AECA52D0061ADC4 /* UploadFileCallbackProxy.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4D0EC8762AECA52D0061ADC4 /* Reachability.m in Sources */,
+				4D0EC8782AECA52D0061ADC4 /* OIMFaceElem.m in Sources */,
+				4D0EC8802AECA52D0061ADC4 /* OIMAttachedInfoElem.m in Sources */,
+				4D0EC8752AECA52D0061ADC4 /* OIMManager+Login.m in Sources */,
+				4D0EC8772AECA52D0061ADC4 /* OIMUserInfo.m in Sources */,
+				4D0EC88C2AECA52D0061ADC4 /* OIMSimpleResultInfo.m in Sources */,
+				4D0EC8732AECA52D0061ADC4 /* OIMManager+Connection.m in Sources */,
+				4D0EC8722AECA52D0061ADC4 /* OIMManager+Group.m in Sources */,
+				4D0EC8912AECA52D0061ADC4 /* SendMessageCallbackProxy.m in Sources */,
+				4D0EC8712AECA52D0061ADC4 /* OIMManager+Conversation.m in Sources */,
+				4D0EC86C2AECA52D0061ADC4 /* OIMCallbacker+Closure.m in Sources */,
+				4D0EC87E2AECA52D0061ADC4 /* OIMFullUserInfo.m in Sources */,
+				4D0EC8832AECA52D0061ADC4 /* OIMSearchParam.m in Sources */,
+				4D0EC88F2AECA52D0061ADC4 /* OIMMergeElem.m in Sources */,
+				4D0EC8882AECA52D0061ADC4 /* OIMGroupMemberInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +800,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = BDLHL8GNFV;
+				DEVELOPMENT_TEAM = UVA297LR9R;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenIMSDKiOS/OpenIMSDKiOS-Prefix.pch";
 				INFOPLIST_FILE = "OpenIMSDKiOS/OpenIMSDKiOS-Info.plist";
